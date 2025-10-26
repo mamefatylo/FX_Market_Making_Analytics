@@ -1,7 +1,18 @@
-.Ds_Store 
+# macOS
+.DS_Store
 
+# Jupyter
 .ipynb_checkpoints
 
+# Python caches
 __pycache__/
 *.pyc
 *.pyo
+
+# Environment files
+.env
+.env.* 
+
+# Data and outputs
+data/processed/
+outputs/
