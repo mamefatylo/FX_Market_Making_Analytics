@@ -1,7 +1,7 @@
 # downloader_fx.py
 
 """
-Downloader for FX historical data from Dukascopy.
+Downloader for FX historical data from Dukascopy. (to be changed into a more compatible source)
 Downloads daily 1-minute CSVs and combines them into a single file per pair.
 
 Author: Mame Faty Lo
