@@ -1,5 +1,12 @@
 # FX Market Making Analytics
 
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Conda](https://img.shields.io/badge/environment-conda-success.svg)](https://docs.conda.io/)
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)
+[![Status](https://img.shields.io/badge/status-work%20in%20progress-yellow.svg)](#)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](#)
+
+
 **Author:** Mame Faty Lo
 
 In this project, I:
@@ -28,7 +35,7 @@ This notebook is designed to be practical, reproducible via Conda (`fx_env.yml`)
 ---
 
 ## Project Structure
-
+```
 fx-market-making-analytics/
 ├── data/
 │ ├── raw/                      # Raw FX data
@@ -42,21 +49,20 @@ fx-market-making-analytics/
 ├── fx_env.yml                  # Conda environment dependencies
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## Setup Instructions (Conda)
 
 ```bash
-git clone <repository_url>
-cd fx-market-making-analytics
+git clone <https://github.com/mamefatylo/FX_Market_Making_Analytics>
+cd FX_Market_Making_Analytics
 
 conda env create -f fx_env.yml
 conda activate fx_env
 
 # (Optional) Update packages
 conda env update --file fx_env.yml --prune
-
 ```
 
 ---
@@ -69,7 +75,6 @@ conda env update --file fx_env.yml --prune
 
 ```
 jupyter notebook
-
 ```
 
 
